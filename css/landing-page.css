@@ -15,7 +15,7 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 .intro-header {
-  padding-bottom: 50px;
+  margin-top: -40px;
   text-align: center;
   color: #f8f8f8;
   background: url(../img/sunset_ocean_one.jpg) no-repeat center center;
@@ -190,11 +190,10 @@ p.copyright {
 }
 
 .img-mnt {
-  
-    width: 100%;
-    max-width: 200px;
-    padding-bottom: 50px;
-
+    width: 200%;
+    max-width: 300px;
+	margin-left: -75px; /* Add this line to adjust the horizontal position */
+	padding-top: 20px;
 }
 
 .img-top {
