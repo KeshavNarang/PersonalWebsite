@@ -127,9 +127,9 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 .banner {
-  padding: 100px 0;
-  color: #f8f8f8;
-  background: url(../img/water.jpg) no-repeat center center;
+  padding: 100px 0; /* Decrease the bottom padding value (50px in this example) */
+  color: #white;
+  background: url(../img/sunset_ocean_one_banner.jpg) no-repeat center center;
   background-size: cover;
 }
 
