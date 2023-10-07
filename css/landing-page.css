@@ -117,11 +117,12 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 .section-heading {
+  text-align: center;
   margin-bottom: 30px;
 }
 
 .section-heading-spacer {
-  float: left;
+  float: center;
   width: 200px;
   border-top: 3px solid #e7e7e7;
 }
@@ -193,7 +194,7 @@ p.copyright {
     width: 200%;
     max-width: 300px;
 	margin-left: -75px; /* Add this line to adjust the horizontal position */
-	padding-top: 20px;
+	margin-top: -5px;
 }
 
 .img-top {
@@ -365,7 +366,7 @@ p.copyright {
   
     width: 100%;
     max-width: 200px;
-    padding-top: 45px;
+    padding-top: 10px;
     padding-bottom: 50px;
 
 }
@@ -413,6 +414,7 @@ p.copyright {
 }
 
 #fall16, #spring17, #fall17, #spring18, #fall18, #spring19, #fall19, #spring20 {
+  text-align: center;
   margin: 0;
 }
 
@@ -426,7 +428,8 @@ p.copyright {
 }
 
 #connect-row {
-  padding-bottom: 100px;
+  
+padding-bottom: 100px;
 }
 
 #connect {
