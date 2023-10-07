@@ -193,8 +193,8 @@ p.copyright {
 .img-mnt {
     width: 200%;
     max-width: 300px;
-	margin-left: -75px; /* Add this line to adjust the horizontal position */
-	margin-top: -5px;
+	margin-left: -80px; /* Add this line to adjust the horizontal position */
+	margin-top: 50px;
 }
 
 .img-top {
