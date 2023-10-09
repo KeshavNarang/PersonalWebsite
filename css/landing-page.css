@@ -18,7 +18,7 @@ body, h1, h2, h3, h4, h5, h6 {
   margin-top: -50px;
   text-align: center;
   color: #f8f8f8;
-  background: url(../img/sunset_ocean_one.jpg) no-repeat center center;
+  background: url(../img/woody_green.jpg) no-repeat center center;
   background-size: cover;
   min-height: 100%;
 }
@@ -130,7 +130,7 @@ body, h1, h2, h3, h4, h5, h6 {
 .banner {
   padding: 100px 0; /* Decrease the bottom padding value (50px in this example) */
   color: #white;
-  background: url(../img/sunset_ocean_one_banner.jpg) no-repeat center center;
+  background: url(../img/woody_green_banner.jpg) no-repeat center center;
   background-size: cover;
 }
 
@@ -282,7 +282,7 @@ p.copyright {
     width: 100%;
     max-width: 200px;
     padding-bottom: 50px;
-    padding-top: 113px;
+    padding-top: 75px;
 
 }
 
@@ -301,6 +301,40 @@ p.copyright {
     padding-bottom: 50px;
     padding-top: 10px;
 
+}
+
+.img-Wharton {
+  
+    width: 100%;
+    max-width: 200px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+
+}
+
+/* Style for the first set of images */
+.image-container {
+  text-align: center; /* Center-align the images */
+}
+
+.img-upchieve
+{
+	width: 100%;
+	max-width: 200px;
+	margin-top: -100px;
+	margin-bottom: -300px;
+}
+
+.img-schoolhouse {
+  width: 100%;
+  max-width: 200px;
+  margin-top: 0px;
+}
+
+.img-mathcounts {
+  width: 100%;
+  max-width: 200px;
+  margin-top: -202px;
 }
 
 .vid-word {
@@ -404,13 +438,12 @@ p.copyright {
 }
 
 .panel-clr.on, .panel-clr1.on, .panel-clr2.on, .panel-clr3.on, .panel-clr4.on, .panel-clr5.on, .panel-clr6.on, .panel-clr7.on {
-  background-color: #e7e7e7;
+  background-color: #e7e7e7e;
   
 }
 
 .panel-clr, .panel-clr1, .panel-clr2, .panel-clr3, .panel-clr4, .panel-clr5, .panel-clr6, .panel-clr7 {
   background-color: #f8f8f8;
-  
 }
 
 #fall16, #spring17, #fall17, #spring18, #fall18, #spring19, #fall19, #spring20 {
