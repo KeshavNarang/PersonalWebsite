@@ -370,11 +370,9 @@ p.copyright {
 
   width: 150%;
   margin-top: -100px;
+  margin-left: -300px;
   padding-bottom: 5px;
   padding-top: 5px;
-  height: 150%;
-
-
 }
 
 .img-codewords {
@@ -383,8 +381,14 @@ p.copyright {
   margin-top: -100px;
   padding-bottom: 5px;
   padding-top: 5px;
-  height: 150%;
-  margin-left: -30px;
+  margin-left: -330px;
+}
+
+.img-codewords-2 {
+
+  width: 125%;
+  margin-top: 0px;
+  margin-left: 45px;
 }
 
 .img-website {
