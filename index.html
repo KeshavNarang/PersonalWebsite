@@ -29,7 +29,7 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="40">
   <!-- Navigation -->
   <nav class="navbar navbar-expand-md navbar-light fixed-top">
-    <div class="container">
+    <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
         aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -38,11 +38,8 @@
         <ul class="navbar-nav ml-auto mr-auto">
           <li class="nav-item">
             <a href="#home" class="nav-link">
-                <i class="fa fa-home fa-fw"></i>
+                <i class="fa fa-home fa-fw"></i> Home
               </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#education">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#skills">Education</a>
@@ -65,76 +62,62 @@
   </nav>
 
   <!-- Header -->
-  <header id="home" class="intro-header">
-    <div class="container">
-      <div class="intro-message">
-        <div class="bio-pic">
-        <img class="img-top" src="img/Keshav_small.jpg" alt="">
-      </div>
-        <h1>Keshav Narang</h1>
-        <!-- <h3>Developer and Student</h3> -->
-        <hr class="intro-divider">
-        <ul class="list-inline intro-social-buttons">
-          <li class="list-inline-item">
-            <a href="Keshav_Narang_Resume.pdf" target="_blank" class="btn btn-secondary btn-lg">
-                <i class="fa fa-file-o fa-fw"></i>
-                <span class="network-name">Resume</span>
-              </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="https://github.com/keshavnarang" target="_blank" class="btn btn-secondary btn-lg">
-                <i class="fa fa-github fa-fw"></i>
-                <span class="network-name">Github</span>
-              </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="https://linkedin.com/in/keshav-narang" target="_blank" class="btn btn-secondary btn-lg">
-                <i class="fa fa-linkedin fa-fw"></i>
-                <span class="network-name">LinkedIn</span>
-              </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </header>
+	<header id="home">
+	  <div class="container-fluid" style="margin-right: 0;">
+		<div class="row">
+		  <!-- Left Half (6 columns) -->
+		  <div class="col-md-7 col-12 intro-header-1" style="border-right: 0px solid white;">
+			  <div class="intro-message">
+				<div class="bio-pic">
+				  <img class="img-top" src="img/Keshav_small.jpg" alt="">	
+				</div>
+				<h1 style="color: black">Keshav Narang</h1>
+				<!-- <h3 style="color: #000080">Developer and Student</h3> -->
+				<hr class="intro-divider">
+				<ul class="list-inline intro-social-buttons">
+				  <li class="list-inline-item">
+					<a href="Keshav_Narang_Resume.pdf" target="_blank" class="btn btn-secondary btn-lg">
+					  <i class="fa fa-file-o fa-fw"></i>
+					  <span class="network-name">Resume</span>
+					</a>
+				  </li>
+				  <li class="list-inline-item">
+					<a href="https://github.com/keshavnarang" target="_blank" class="btn btn-secondary btn-lg">
+					  <i class="fa fa-github fa-fw"></i>
+					  <span class="network-name">Github</span>
+					</a>
+				  </li>
+				  <li class="list-inline-item">
+					<a href="https://linkedin.com/in/keshav-narang" target="_blank" class="btn btn-secondary btn-lg">
+					  <i class="fa fa-linkedin fa-fw"></i>
+					  <span class="network-name">LinkedIn</span>
+					</a>
+				  </li>
+				</ul>
+			</div>
+		  </div>
 
-  <!-- Page Content -->
-
-  </section>
-
-  <section class="content-section-b" id="education">
-
-    <div class="container">
-      <div class="clearfix"></div>
-      <h2 class="section-heading">About Me</h2>
-
-	  <hr class="section-heading-spacer">
-          <div class="col-12">
-			<p class="lead" id="education-text">I am a student at <a href="https://ohs.stanford.edu/" target="_blank" class="education_links">Stanford Online High School</a>, supplemented by courses from <a href="https://cty.jhu.edu/" target="_blank" class="education_links">The Center for Talented Youth (CTY)</a> and <a href="https://summer.harvard.edu/high-school-programs/secondary-school-program/" target="_blank" class="education_links">Harvard Secondary School</a>. As a senior, I currently serve as the Teaching Assistant (TA) for Data Science, President of the Artificial Intelligence Club, Founder and Leader of the Renewable Energy Club, and Co-Captain of the Science Bowl Team. My main interests are in Entrepreneurship and Artificial Intelligence, specifically as applied to Renewable Energy technologies. <br><br>
-			
-			Motivated by the effects of Climate Change that I experienced firsthand, having lived in a drought most of my childhood, I created the 501(c)(3) nonprofit organization, <a href="https://greenteampower.org" target="_blank" class="organization_links">GreenTeamPower</a>, whose mission is to equip youth with advanced scientific and political knowledge to effectively advocate for climate action. Through our podcast, TheEcoAdvocate, I engage with leading experts in every climate change discipline, from policy advisors for state senators to sustainability researchers at MIT. Based on these learnings and cutting-edge research and policies, we develop educational materials, conduct workshops in libraries and schools, and promote action through rallies and public commentary. In the last five years, we've effectively coordinated more than 20 workshops and completed 15 environmental projects across seven countries. To share our insights and maintain accessibility to knowledge, I recently authored and published a book titled "Keeping Our Planet Green: A Young Scientist's Perspective on Environmental Stewardship." <br><br>
-
-			In my research, I am developing an innovative solar cell that can both create and store electricity using a perovskite and an electrochromic supercapacitor. This research will facilitate our transition to sustainable energy as it addresses the critical challenges associated with energy storage when harnessing excess solar energy: traditional solar batteries are often unaccessible for residential customers as they are costly (exceeding $10,000), heavy (over 250 lbs), and environmentally unsustainable.
-
-			This research is the flagship project of the startup I co-founded <a href="https://asksolarpanel.com" target="_blank" class="organization_links">ASK Solar Panel LLC</a>, where I serve as the Chief Technology Officer. Our company is currently in the process of filing a patent application (63/456519) for our flagship product, which focuses on TiO2/WO3 nanotube-enhanced electrochromic supercapacitor integration with perovskite technology. In pursuit of our vision, we have received generous pro bono support worth $20,000 from <a href="https://www.afslaw.com" target="_blank" class="organization_links">Arent Fox</a> for our patent application. <br><br>
-
-			Since June 2023, I have been a researcher at <a href="https://med.stanford.edu/gevaertlab.html" target="_blank" class="organization_links">Stanford University's Gevaert Labs</a>, where I contribute to the development of Artificial Intelligence models for image-to-text classification. Additionally, I am an intern at <a href="https://med.stanford.edu/bhallalab.html" target="_blank" class="organization_links">Stanford University's Bhalla Labs</a>, specializing in computational analysis of Diabetic Kidney Disease.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- /.container -->
-
-    <!-- /.container -->
-  </section>
-
-  <section class="content-section-a" id="skills">
-
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-7">
-          <div class="clearfix"></div>
-          <h2 class="section-heading">Coursework</h2>
+		  <!-- Right Half -->
+		  <div class="col-md-5 col-12 intro-header-2">
+			  <h2 class="section-heading mt-custom" id="about-me" style="color: black">About Me</h2>
+			  <div class="intro-message-2">
+				  <hr id="about-me-section-header">
+				  <p class="lead" id="education-text" style="color: black">
+				  Welcome! I am a student at <a href="https://ohs.stanford.edu/" target="_blank" class="education_links">Stanford Online High School</a>, supplemented by courses from <a href="https://cty.jhu.edu/" target="_blank" class="education_links">The Center for Talented Youth (CTY)</a> and <a href="https://summer.harvard.edu/high-school-programs/secondary-school-program/" target="_blank" class="education_links">Harvard Secondary School</a>. As a senior, I currently serve as the Teaching Assistant (TA) for Data Science, President of the Artificial Intelligence Club, Founder and Leader of the Renewable Energy Club, and Co-Captain of the Science Bowl Team. My main interests are in Entrepreneurship and Artificial Intelligence, specifically as applied to Renewable Energy technologies. 
+				</div>
+			</p>
+		  </div>
+		</div>
+	  </div>
+	</header>
+	
+	<section class="content-section-a" id="skills" style="padding-top: 0; margin-top: 0">
+	
+	<div class="container" style="padding-top: 0; margin-top: 0">
+		<div class="row">
+		  <!-- Left Half (6 columns) -->
+		  <div class="col-md-7 col-12">
+          <h2 class="section-heading mt-custom">Coursework</h2>
 		  <hr class="section-heading-spacer">
           <div id="accordion" role="tablist" aria-multiselectable="true">
             <div class="card">
@@ -144,12 +127,11 @@
                   <b>Mathematics</b>
                 </p>
               </div>
-
-              <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+			  <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
                 <div class="lead" id="classes">
                   AP Statistics <br> OM065: Data Science <br> UM150: Multivariable Differential and Integral Calculus <br> UM51A: Linear Algebra <br> UM53A: Differential Equations <br> UM115: Real Analysis <br> UM106: Complex Analysis </div>
               </div>
-            </div>
+			  </div>
             <div class="card">
               <div class="card-header panel-clr1" role="tab" id="headingTwo" data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwo"
                 aria-expanded="false" aria-controls="collapseTwo">
@@ -238,16 +220,12 @@
 				  </div>
               </div>
             </div>
-		</div>
-	  </div>
+		  </div>
+		  </div>
 
-		<div class="col-lg-2">
-
-		</div>
-
-		<div class="col-lg-3">
-			  <div class="clearfix"></div>
-			  <h2 class="section-heading">Skills</h2>
+		  <!-- Right Half -->
+		  <div class="col-md-5 col-12">
+			  <h2 class="section-heading mt-custom">Skills</h2>
 			  <hr class="section-heading-spacer">
 			  <p class="lead">
 
@@ -262,13 +240,13 @@
 			  <br> HTML<br> CSS<br> JavaScript<br> JQuery <br> React <br> PHP <br> SQL <br>
 			  </p>
 		</div>
-      </div>
-    </div>
-    <!-- /.container -->
+	  </div>
+	</header>
+
+	</section>
 
     <script src="accordion.js"></script>
 
-  </section>
   <!-- /.content-section-b -->
 
   <section class="content-section-b" id="experience">
@@ -483,7 +461,6 @@
       </div>
     </div>
 
-
     <!-- /.container -->
   </section>
   <section class="content-section-b" id="extracurriculars">
@@ -531,51 +508,100 @@
 	</section>
 	-->
 
+	<section class="content-section-a" id="gallery">
+		<div class="container">
+			
+			<h2 class="section-heading">Awards</h2>
+			<hr class="section-heading-spacer">
+			  
+			<div class="row">
+				<div class="col-md-12">
+					<h4 class="gallery-header">Conrad Challenge</h2>
+				</div>
+			</div>
+				
+			<div class="row">
+				<div class="col-md-4">
+					<figure>
+						<img src="img/gallery/Conrad/1.png" alt="Image 1" class="img-fluid">
+						<figcaption>Power Pitch</figcaption>
+					</figure>
+				</div>
+				<div class="col-md-4">
+					<figure>
+						<img src="img/gallery/Conrad/3.png" alt="Image 2" class="img-fluid">
+						<figcaption>Expo at NASA </figcaption>
+					</figure>
+				</div>
+				<div class="col-md-4">
+					<figure>
+						<img src="img/gallery/Conrad/2.png" alt="Image 3" class="img-fluid">
+						<figcaption>Award</figcaption>
+					</figure>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-12">
+					<h4 class="gallery-header">VEX Robotics</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<figure>
+						<img src="img/gallery/VEX/1.png" alt="Image 1" class="img-fluid">
+						<figcaption>Dome at Worlds</figcaption>
+					</figure>
+				</div>
+				<div class="col-md-4">
+					<figure>
+						<img src="img/gallery/VEX/3.png" alt="Image 2" class="img-fluid">
+						<figcaption>Congressional Recognition </figcaption>
+					</figure>
+				</div>
+				<div class="col-md-4">
+					<figure>
+						<img src="img/gallery/VEX/2.png" alt="Image 3" class="img-fluid">
+						<figcaption>Winning the World Championship</figcaption>
+					</figure>
+				</div>
+			</div>
+		</div>
+	</section>
+
   <aside class="banner" id="connect">
-
-    <div class="container">
-
-      <div class="row" id = "connect-row">
-        <div class="footer-social">
-          <ul class="banner-social-buttons">
-            <li class="list-inline-item">
-              <a href="mailto:mrkeshavnarang@gmail.com" class="btn btn-secondary btn-lg">
-                  <i class="fa fa-envelope-o fa-fw"></i>
-                  <span class="network-name">mrkeshavnarang@gmail.com</span>
+	<div class="container">
+        <div class="row" id="connect-row">
+            <div class="col-md-3">
+                <a href="mailto:keshavn@ohs.stanford.edu" class="btn btn-secondary btn-lg btn-block">
+                    <i class="fa fa-envelope-o fa-fw"></i>
+                    <span class="network-name">Email</span>
                 </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="mailto:keshavn@ohs.stanford.edu" class="btn btn-secondary btn-lg">
-                  <i class="fa fa-envelope-o fa-fw"></i>
-                  <span class="network-name">keshavn@ohs.stanford.edu</span>
+            </div>
+            <div class="col-md-3">
+                <a href="Keshav_Narang_Resume.pdf" target="_blank" class="btn btn-secondary btn-lg btn-block">
+                    <i class="fa fa-file-o fa-fw"></i>
+                    <span class="network-name">Resume</span>
                 </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="Keshav_Narang_Resume.pdf" target="_blank" class="btn btn-secondary btn-lg">
-                  <i class="fa fa-file-o fa-fw"></i>
-                  <span class="network-name">Resume</span>
+            </div>
+            <div class="col-md-3">
+                <a href="https://github.com/keshavnarang" target="_blank" class="btn btn-secondary btn-lg btn-block">
+                    <i class="fa fa-github fa-fw"></i>
+                    <span class="network-name">Github</span>
                 </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://github.com/keshavnarang" target="_blank" class="btn btn-secondary btn-lg">
-                  <i class="fa fa-github fa-fw"></i>
-                  <span class="network-name">Github</span>
+            </div>
+            <div class="col-md-3">
+                <a href="https://linkedin.com/in/keshav-narang" target="_blank" class="btn btn-secondary btn-lg btn-block">
+                    <i class="fa fa-linkedin fa-fw"></i>
+                    <span class="network-name">LinkedIn</span>
                 </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://linkedin.com/in/keshav-narang" target="_blank" class="btn btn-secondary btn-lg">
-                  <i class="fa fa-linkedin fa-fw"></i>
-                  <span class="network-name">LinkedIn</span>
-                </a>
-            </li>
-          </ul>
+            </div>
         </div>
-      </div>
     </div>
     <!-- /.container -->
+</aside>
+<!-- /.banner -->
 
-  </aside>
-  <!-- /.banner -->
 
   <script>
     $(document).ready(function () {

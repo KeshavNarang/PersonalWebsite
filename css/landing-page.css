@@ -7,31 +7,52 @@
 body, html {
   width: 100%;
   height: 100%;
+  overflow-x: hidden;
 }
 
 body, h1, h2, h3, h4, h5, h6 {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
+.navbar {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.8);
+  max-height: 3rem;
 
-.intro-header {
-  margin-top: -50px;
+}
+.intro-header-1 {
   text-align: center;
-  color: #f8f8f8;
-  background: url(../img/woody_green_small.jpg) no-repeat center center;
+  color: #fff;
+  background-color: #e7e7e7;
+  /* background: url(../img/woody_green_small.jpg) no-repeat center center; */
   background-size: cover;
-  min-height: 100%;
 }
 
+.intro-header-2 {
+  text-align: center;
+  color: #000;
+  /* background: url(../img/woody_green_small.jpg) no-repeat center center; */
+  background-color: #e7e7e7;
+  background-size: cover;
+}
+.education_links {
+	color: #5a9bd5 !important;
+	text-decoration: none;
+}
+
+.education_links:hover {
+  }
+
 .intro-message {
-  position: relative;
-  padding-top: 20%;
-  padding-bottom: 20%;
+    text-align: center;
+    position: absolute;
+    top: calc(50% + 1.5rem);
+    left: 50%;
+    transform: translate(-50%, -50%);
+	width: 100%; /* Set the width to 100% */
 }
 
 .intro-message>h1 {
-  margin: 0;
-  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
   font-size: 5em;
 }
 
@@ -48,24 +69,84 @@ body, h1, h2, h3, h4, h5, h6 {
 .intro-social-buttons i {
   font-size: 80%;
 }
-
+  
 @media(max-width:767px) {
-  .intro-message {
-    padding-bottom: 15%;
+  .navbar
+  {
+	  padding: 0;
+	  background-color: rgba(250, 250, 250, 1); /* Change the color and opacity as needed */
   }
+  .navbar-collapse {
+	background-color: rgba(250, 250, 250, 1); /* Semi-opaque backdrop color */
+	border-radius: 5px; /* Optional: Add rounded corners to the backdrop */
+  }
+  .navbar-nav {
+	  text-align: center; /* Center-align the menu items */
+	  width: 100%;
+	  padding-left: 0;
+	  padding-right: 0;
+	}
   .intro-message>h1 {
     font-size: 3em;
   }
   ul.intro-social-buttons>li {
     display: block;
     margin-bottom: 20px;
-    padding: 0;
-  }
-  ul.intro-social-buttons>li:last-child {
-    margin-bottom: 0;
   }
   .intro-divider {
     width: 100%;
+  }
+  .intro-header-1 {
+    padding: 350px 0; /* Adjust the padding as needed */
+  }
+  .intro-message>h1 {
+    font-size: 3em; /* Adjust the font size as needed */
+  }
+}	
+
+/* Add a media query for small screens */
+@media (max-width: 767px) {
+  /* Center-align the images within their rows */
+  .img-citadel,
+  .img-citadel-securities,
+  .img-penn,
+  .img-penn-2,
+  .img-penn-3,
+  .img-chess,
+  .img-Wharton,
+  .img-rean,
+  .img-fb,
+  .img-mathcounts,
+  .img-upchieve,
+  .img-schoolhouse,
+  .img-mnt,
+  .img-word,
+  .img-website,
+  .img-mybook,
+  .img-codewords,
+  .img-codewords-2,
+  .img-sudoku,
+  .img-solar,
+  .img-website_2,
+  .img-mnt2,
+  .img-innovation,
+  .img-march-of-dimes {
+    margin: 0 auto; /* Set margin to auto to center-align */
+    display: block; /* Ensure images are displayed as blocks */
+    max-width: 100%; /* Ensure images don't exceed their container's width */
+  }
+}
+
+/* Add a media query for small screens */
+@media (max-width: 767px) {
+  /* Center-align the images within their rows in the research section */
+  .img-codewords-2,
+  .img-pcs,
+  .img-website,
+  .img-website_2 {
+    margin: 0 auto; /* Set margin to auto to center-align */
+    display: block; /* Ensure images are displayed as blocks */
+    max-width: 100%; /* Ensure images don't exceed their container's width */
   }
 }
 
@@ -118,7 +199,7 @@ body, h1, h2, h3, h4, h5, h6 {
 
 .section-heading {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
 }
 
 .section-heading-spacer {
@@ -128,56 +209,15 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 .banner {
-  padding: 100px 0; /* Decrease the bottom padding value (50px in this example) */
+  padding: 10px 0; /* Decrease the bottom padding value (50px in this example) */
   color: #white;
-  background: url(../img/woody_green_banner.jpg) no-repeat center center;
+  /* background: url(../img/woody_green_banner.jpg) no-repeat center center; */
+  background-color: #e7e7e7;
   background-size: cover;
-}
-
-.banner h2 {
-  margin: 0;
-  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-  font-size: 3em;
 }
 
 .banner ul {
   margin-bottom: 0;
-}
-
-.banner-social-buttons {
-  float: right;
-  margin-top: 0;
-}
-
-@media(max-width:1199px) {
-  ul.banner-social-buttons {
-    float: left;
-    margin-top: 15px;
-  }
-
-  .img-right {
-    display: none;
-  }
-}
-
-@media(max-width:767px) {
-  .banner h2 {
-    margin: 0;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-    font-size: 3em;
-  }
-  ul.banner-social-buttons>li {
-    display: block;
-    margin-bottom: 20px;
-    padding: 0;
-  }
-  ul.banner-social-buttons>li:last-child {
-    margin-bottom: 0;
-  }
-
-  .img-right {
-    display: none;
-  }
 }
 
 footer {
@@ -206,6 +246,21 @@ p.copyright {
 
 .bio-pic {
   padding-bottom: 12px;
+}
+
+#about-me, #education-text {
+	color: black;
+}
+
+#education-text {
+	text-align: left;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+#about-me-section-header {
+  float: center;
+  width: 200px;
 }
 
 #education-text, #work-text, #projects-text {
@@ -433,30 +488,24 @@ p.copyright {
 }
 
 .img-mnt2 {
-
     width: 100%;
     max-width: 200px;
     padding-top: 60px;
     padding-bottom: 50px;
-
 }
 
 .img-innovation {
-
     width: 100%;
     max-width: 200px;
     padding-top: 140px;
     padding-bottom: 50px;
-
 }
 
 .img-march-of-dimes {
-
     width: 100%;
     max-width: 200px;
     padding-top: 35px;
     padding-bottom: 50px;
-
 }
 
 #classes {
@@ -466,7 +515,6 @@ p.copyright {
 
 .panel-clr.on, .panel-clr1.on, .panel-clr2.on, .panel-clr3.on, .panel-clr4.on, .panel-clr5.on, .panel-clr6.on, .panel-clr7.on {
   background-color: #e7e7e7e;
-
 }
 
 .panel-clr, .panel-clr1, .panel-clr2, .panel-clr3, .panel-clr4, .panel-clr5, .panel-clr6, .panel-clr7 {
@@ -477,38 +525,13 @@ p.copyright {
   text-align: center;
   margin: 0;
 }
-
-.navbar {
-  position: fixed;
-  background-color: rgba(255, 255, 255, 0.8) !important;
+.mt-custom {
+	margin-top: 4rem;
 }
 
 #nav ul li:hover a{
   color:#FFF;
 }
-
-#connect-row {
-
-padding-bottom: 100px;
-}
-
-#connect {
-  padding-bottom: 10px;
-}
-
-.footer-social {
-  text-align: center;
-}
-.footer-social li {
-  display: inline;
-}
-.footer-info {
-  text-align: center;
-}
-.footer-info li {
-  display: inline-block;
-}
-
 .btn {
   background-color: rgba(255, 255, 255, 0.6);
   color: black;
@@ -518,4 +541,12 @@ padding-bottom: 100px;
 .btn:hover {
   background-color: white;
   color: black;
+}
+
+.gallery-header {
+	text-align: center;
+}
+
+figcaption {
+	text-align: center;
 }
