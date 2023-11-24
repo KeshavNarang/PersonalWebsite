@@ -423,89 +423,48 @@ p.copyright {
 
 .img-mybook {
 
-  width: 150%;
-  margin-top: -100px;
-  margin-left: -300px;
-  padding-bottom: 5px;
-  padding-top: 5px;
+  width: 100%;
 }
 
 .img-codewords {
 
-  width: 150%;
-  margin-top: -100px;
-  padding-bottom: 5px;
-  padding-top: 5px;
-  margin-left: -330px;
+  width: 100%;
 }
 
 .img-codewords-2 {
 
-  width: 125%;
-  margin-top: 0px;
-  margin-left: -50px;
+  width: 100%;
 }
 
 .img-website {
 
     width: 100%;
-    max-width: 200px;
-    padding-bottom: 50px;
-    padding-top: 50px;
 }
 
 .vid-sudoku {
   width: 100%;
-  max-width: 200px;
-  padding-bottom: 10px;
-  padding-top: 40px;
 }
 
 .img-solar {
 
     width: 100%;
-    max-width: 200px;
-    padding-bottom: 50px;
-    padding-top: 120px;
 }
 
 .img-website_2 {
-
     width: 100%;
-    max-width: 200px;
-    padding-bottom: 50px;
-    padding-top: 100px;
-
 }
 
 .img-mnt2 {
 
     width: 100%;
-    max-width: 200px;
-    padding-top: 10px;
-    padding-bottom: 50px;
-
-}
-
-.img-mnt2 {
-    width: 100%;
-    max-width: 200px;
-    padding-top: 60px;
-    padding-bottom: 50px;
 }
 
 .img-innovation {
     width: 100%;
-    max-width: 200px;
-    padding-top: 140px;
-    padding-bottom: 50px;
 }
 
 .img-march-of-dimes {
     width: 100%;
-    max-width: 200px;
-    padding-top: 35px;
-    padding-bottom: 50px;
 }
 
 #classes {
